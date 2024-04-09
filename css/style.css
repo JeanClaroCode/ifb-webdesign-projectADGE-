@@ -249,22 +249,77 @@ h3{
 }
 
 .footer{
-    background-color: #212121;
-}
-
- .donate{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    background:url(../assets/section4_donate/Rectangle\ 14.png) no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #212121;
+    height: auto;
+    color: #fff;
 }
 
-form{
-    align-items:center ;
-    justify-content: center;
+.footerlogo{
+    font-size: 2rem;
+    padding: 1rem 0rem 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.credit{
+    gap: 1rem;
+    display: flex;
+    justify-content: center;  
     margin-left: auto;
     margin-right: auto;
-} 
+    font-size: 2rem;
+}
+
+.links{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.links a{
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+
+}
+.links p{
+    padding: auto;
+    font-size: 4rem;
+  
+}
+
+.contentlinks p {
+    margin: 0; 
+}
+
+.contact{
+    height: auto;
+}
+
+.contact img{
+    padding-right: 1rem;
+}
+
+.emailicon-adress{
+    display: flex;
+    align-items: center;
+}
+
+.location-adress{
+    display: flex;
+    align-items: center;
+}
+
+.location img{
+    max-width: 3rem;
+    height: auto;
+}
+
+.adress{
+    max-width: 20rem;
+    height: auto;
+}
+
