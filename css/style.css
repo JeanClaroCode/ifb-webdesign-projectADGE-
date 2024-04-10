@@ -168,6 +168,7 @@ h3{
 
 
 .voluntary{
+    margin-top: 1rem;
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
@@ -184,6 +185,7 @@ h3{
 }
 
 .resources .figpeople{
+    width: 50%;
     margin-right: auto;
     margin-left: 6rem;
 }
@@ -222,12 +224,13 @@ h3{
 .achiviements {
     color: black;
     max-width: 56rem;
+    width: 100%;
+    height: auto;
     align-items: center;
     justify-content:space-around;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .achiviements h3{
@@ -320,6 +323,7 @@ h3{
 
 .adress{
     max-width: 20rem;
+    width: 100%;
     height: auto;
 }
 
