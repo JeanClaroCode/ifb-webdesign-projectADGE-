@@ -1,0 +1,112 @@
+@media (max-width:1024px) {
+
+    body, html {
+        font-size: 70%;
+    }
+
+
+
+    .date_fone{
+        gap: 1rem;
+    }
+    .donatecontent {
+        justify-content: center;  
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+   
+    }
+
+    
+    .card1{
+        width: 70%;
+        gap: 1rem;
+
+    }
+        
+    .card2{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+
+
+
+@media (max-width:768px) {
+    body, html {
+        font-size: 55%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:575px){
+
+    body, html {
+        font-size: 45%;
+    }
+
+    
+    .donate{
+        padding: 1rem;
+    }
+    .donatecontent{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .card1{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+        margin-bottom: 1rem;
+        align-items: none;
+    }
+
+    .card2{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        height: auto;
+            
+    }
+
+    .date_fone{
+        display: flex;
+
+    }
+
+    .form-control-date{
+        width: 100%;
+    }
+   
+}
