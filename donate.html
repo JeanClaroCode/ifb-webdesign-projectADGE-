@@ -51,13 +51,13 @@
                             <div class="cpf-input">
                                 <label class="custom-label">
                                     <span class="cpf">CPF</span>
-                                    <input class="form-control" type="text" placeholder="xxx.xxx.xxx-xx"/>
+                                    <input class="form-control" id="labelcpf" type="text" placeholder="xxx.xxx.xxx-xx" oninput="addnewCPF()" value=""/>
                                 </label>
                             </div>                  
                             <div class="email-input">
                                 <label class="custom-label">
                                     <span class="email">E-mail</span>
-                                    <input class="form-control" type="text"/>
+                                    <input class="form-control" id="labelemail" type="text"/>
                                 </label>
                             </div>   
                         </div> 
@@ -72,7 +72,7 @@
                                 <div class="date-input">
                                     <label class="custom-label">
                                         <span class="date">DATA DE NASCIMENTO</span>
-                                        <input class="form-control-date" type="text"/>
+                                        <input class="form-control-date" id="labeldate" type="text" pattern="\d{2}\/\d{2}\/\d{4}"  title="Digite uma data no formato: dd/mm/yyyy"/>
                                     </label>
                                 </div>     
                                 <div class="fone-input">
@@ -89,15 +89,15 @@
                                     </label>
                                 </div>
                             </div>
-                            <div class="btn-donate">
-                                <a href="">
+                            <div class="btn-donate">  
                                     <div class="btn">DOAR</div>
-                                </a>
                             </div>
                     </form>
                 </div>
             </div>
         </section>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
         <script src="./js/scriptdonate.js"></script>
     </body>
 </html>
